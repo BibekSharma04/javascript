@@ -33,3 +33,4 @@ const user = {
 Object.freeze(user);
 user.address.city = "Pokhara";  // Still works!
 console.log(user.address.city); // "Pokhara"
+
